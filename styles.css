@@ -25,8 +25,9 @@
     border:4px solid #ABC4FF;
     background-color: #B6CCFE;
     box-shadow: 10px 10px var(--box-shadow-color);
-    height: 300px;
-    width: 200px;
+    aspect-ratio: 0.666;
+    height: 100%;
+    max-height: 300px;
     border-radius: 10px 0;
     position:relative;
     margin:15px 20px;
@@ -35,6 +36,55 @@
 
 .item:hover{
     background-color: #E2EAFC;
+}
+
+.paragraph{
+    color: #a3b5dd;
+
+    font-size: 20px;
+    font-family: monospace;
+
+    text-align: center;
+    padding: 0 10px;
+}
+
+.media {
+    vertical-align: top;
+    border:4px solid #ABC4FF;
+    background-color: #B6CCFE;
+    box-shadow: 10px 10px var(--box-shadow-color);
+    aspect-ratio: 1;
+    max-width: 100px;
+    width: 100%;
+    border-radius: 10px 0;
+    position:relative;
+    margin:15px 20px;
+    display:inline-block;
+}
+
+.media:hover{
+    background-color: #E2EAFC;
+}
+
+.item-button{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    display: block;
+}
+
+.screenshot{
+    border:4px solid #ABC4FF;
+    background-color: #B6CCFE;
+    box-shadow: 10px 10px var(--box-shadow-color);
+    max-width: 400px;
+    width: 100%;
+    aspect-ratio: 1.6;
+    border-radius: 10px 0;
+    position: relative;
+    margin:15px 20px;
+    display: inline-block;
 }
 
 .paragraph{
