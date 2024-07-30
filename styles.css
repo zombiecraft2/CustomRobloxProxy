@@ -1,9 +1,11 @@
 :root{
     --text-shadow-color: #a3b5dd;
     --box-shadow-color: #8094c2;
+    color-scheme: only light;
 }
 
 *{
+    color-scheme: only light;
     margin: 0;
     padding: 0;
     user-select: none;
